@@ -1,0 +1,94 @@
+.grid {
+    background-color: #eee;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(11, 1fr);
+    gap: 10px;
+    font-family: sans-serif;
+    padding: 30px;
+}
+
+.grid div {
+    padding: 0 20px;
+    border-bottom: 2px solid #ff3d00;
+    position: relative;
+}
+.grid div::after {
+    content: "``";
+    position: absolute;
+    font-weight: bolder;
+    font-size: 50px;
+    color: #b1bbc8;
+    bottom: -30px;
+    right: 5px;
+}
+small {color: gray}
+.osama {
+    grid-column: 1/7;
+    grid-row: 1/4;
+    background-color: white;
+}
+
+.ahmed {
+    grid-column: 7/10;
+    grid-row: 1/4;
+    background-color: white;
+}
+
+.shady {
+
+    grid-column: 10/13;
+    grid-row: 1/10;
+    background-color: black;
+    color: white;
+}
+
+.mohamed {
+    grid-column: 1/4;
+    grid-row: 4/10;
+    background-color: white;
+
+}
+
+.mahmoud {
+    grid-column: 4/10;
+    grid-row: 4/7;
+    background-color: black;
+    color: white;
+}
+
+.ezzeldin {
+    grid-column: 4/10;
+    grid-row: 7/10;
+    background-color: white;
+
+}
+
+.med-sayed {
+    grid-column: 1/4;
+    grid-row: 10/12;
+    background-color: white;
+
+}
+
+.ibrahim{
+    grid-column: 4/7;
+    grid-row: 10/12;
+    background-color: black;
+    color: white;
+}
+
+.gamal {
+    grid-column: 7/10;
+    grid-row: 10/12;
+    background-color: white;
+
+}
+
+.eman {
+    grid-column: 10/13;
+    grid-row: 10/12;
+    background-color: white;
+
+}

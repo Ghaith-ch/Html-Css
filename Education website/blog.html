@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificate & Online Programs For 2023</h1>
+    </section>
+
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="images/certificate.jpg" alt="">
+                <h2>Our Certificate & Online Programs For 2023</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque voluptate nesciunt, perferendis rem et delectus ipsum dicta enim maiores excepturi optio? Est adipisci temporibus, aspernatur, laudantium numquam porro atque omnis molestiae quasi consequuntur ab cupiditate!</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, odio obcaecati! Ex quo expedita sunt quidem nisi? Iste natus, necessitatibus magnam explicabo sequi commodi accusantium soluta. Fugiat minus quibusdam harum vero dignissimos dolorum sed mollitia! Consectetur quisquam corrupti ullam, cupiditate tenetur corporis? Ipsum deserunt iusto molestiae expedita nam dignissimos vel aspernatur quibusdam aut, vero aliquid error odit placeat mollitia quae? In provident voluptatibus quia consequatur, perspiciatis dignissimos exercitationem iusto vel!</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus minima, facilis cum dicta animi consequuntur quisquam tenetur nihil non dolores sit inventore voluptatem rem corrupti nam ex repellat tempora. Quibusdam, cupiditate? Explicabo commodi quia adipisci in animi mollitia blanditiis modi cupiditate consequatur nisi consequuntur, repellendus sapiente cumque ipsa veritatis suscipit deleniti cum voluptate nihil temporibus, eos excepturi. Unde, dolor facilis! Aspernatur atque est nemo, dolorum amet impedit deleniti laboriosam exercitationem!</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae eius suscipit blanditiis commodi similique laborum sit neque alias quaerat nihil, saepe laboriosam velit. Porro accusantium omnis dicta ipsum deleniti perferendis repellat magni dolorem ratione, qui libero quaerat blanditiis. Porro, quas.</p>
+
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form action="" class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea  rows="5" placeholder="Your Comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">Post Comment</button>
+                    </form>
+                </div>
+
+
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>23</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>25</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>45</span>
+                </div>
+                <div>
+                    <span>Web Debeloper</span>
+                    <span>55</span>
+                </div>
+                <div>
+                    <span>Information Security</span>
+                    <span>23</span>
+                </div>
+                <div>
+                    <span>BI Science</span>
+                    <span>23</span>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>Quo atque vero sit aut repudiandae animi dolorem incidunt possimus ipsam modi.</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa-regular fa-heart"></i> Ghaith Chikh Alchabab</p>
+    </section>
+
+    <script>
+        var navLinks =document.getElementById('navLinks');
+
+        function showMenu(){
+            navLinks.style.right="0"
+        }
+
+        function hideMenu(){
+            navLinks.style.right="-200px"
+        }
+    </script>
+
+</body>
+
+</html>
